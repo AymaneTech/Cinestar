@@ -35,7 +35,7 @@
                     <tr>
                         <td class="py-3 px-5 border-b border-blue-gray-50">
                             <div class="flex items-center gap-4">
-                                <img class="w-24 h-24" src="{{ asset("storage/" . false/* $category->image->path */) }}"
+                                <img class="w-24 h-24" src="{{ asset("storage/" . $category->image->path ) }}"
                                      alt="">
                             </div>
                         </td>
