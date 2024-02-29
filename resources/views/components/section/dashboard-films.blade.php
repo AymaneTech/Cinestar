@@ -43,7 +43,6 @@
                                 <img class="w-24 h-24" src="{{ asset("storage/" . $film->image->path) }}"
                                      alt="">
                             </div>
-                            {{--                            {{ asset('storage/' . $film->image->path ?? null) }}--}}
                         </td>
                         <x-elements.td
                             class="leading-normal text-blue-red-900 font-bold">{{ $film->title }}</x-elements.td>
